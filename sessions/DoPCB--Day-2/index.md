@@ -25,7 +25,7 @@ size: 4:3
 
 ---
 
-#### ATMega328p barebone ( as used in Arduino UNO )
+#### ATmega328P barebone ( as used in Arduino UNO )
 
 ![bg](./resources/ArdunioUNO.jpg)
 
@@ -67,14 +67,14 @@ size: 4:3
 ### PCB design
 
 - layers
-- routing traces ( + semi-auto routing )
-- @maybe add custom components
+    - @maybe 2-layer- vs 4-layer-designs
+- routing traces ( + semi-auto routing ) + ratnest
 - Design Rule Check (DRC)
 - edge cuts + *mounting holes* or PCB in context
-- ground + signal planes
-- @maybe 3D view
-- @maybe 2-layer- vs 4-layer-designs
-- @maybe(ARTISTIC PCBs) adding custom silkscreen layers
+    - @maybe 3D view
+- ground fill + signal planes
+- @maybe add custom components
+- @maybe adding custom silkscreen layers
 
 #### packages
 
